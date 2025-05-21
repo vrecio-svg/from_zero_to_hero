@@ -1,0 +1,16 @@
+{
+    "food": [
+        {
+            "category": "food",
+            "description": "pizza",
+            "amount": 39.0,
+            "date": "2025-05-21"
+        },
+        {
+            "category": "food",
+            "description": "sushi",
+            "amount": 35.0,
+            "date": "2025-05-21"
+        }
+    ]
+}

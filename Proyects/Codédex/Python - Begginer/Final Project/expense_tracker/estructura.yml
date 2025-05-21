@@ -1,0 +1,33 @@
+﻿[informative] 
+Run the main.py file, and introduce your expenses. This project would improve, I promise 😊
+
+
+
+
+Steps to structure the expense controller:
+    Data collection 2.
+        - User input (title/description of expense, category of expense, amount and date)
+        - Verification of entries
+
+    example:
+    {
+    “category": ”grocery”
+    “title": ”Pizza dinner”
+    “quantity": 30.00
+    “date": ”2025-04-25”
+    }
+        
+    2. Data structure
+        - Dictionary to store the expenses, the keys are the categories (food, housing...) and the values of the lists are the corresponding quantities.
+    
+    3. Calculations and analysis (with filters)
+      - Total sum: calculate the total expense per category and in total.
+      - Budget: the user can define a maximum budget per category and show if it is within the limit or not.
+      - Average spending: calculate the average spending per category.
+
+    4. Results display
+      - Display results: show total spent per category, total spend and compare with budget
+      - Use graphs (matplotlib)
+
+    5. Save and load data
+
